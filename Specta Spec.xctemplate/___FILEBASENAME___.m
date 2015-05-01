@@ -6,32 +6,17 @@
 //  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "Specta.h"
-#import "___VARIABLE_testedClass___.h"
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
 
+#import "___VARIABLE_testedClass___.h"
 
 SpecBegin(___VARIABLE_testedClass___)
 
 describe(@"___VARIABLE_testedClass___", ^{
     
-    beforeAll(^{
-
-    });
-    
-    beforeEach(^{
-
-    });
-    
-    it(@"", ^{
-
-    });  
-    
-    afterEach(^{
-
-    });
-    
-    afterAll(^{
-
+    it(@"<#Description#>", ^{
+      <#code#>
     });
 });
 
